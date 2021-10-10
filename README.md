@@ -16,9 +16,9 @@ assignment from  ZOHO Corporation on 11/10/2021
  - Ensure that the conditions are satisfied under a certain operation 
  - Ie: if an error message is displayed , the updating process wont take place 
 
-## Some of the errors are
+## Some of the errors-criteria to avoid are
  - Insufficient money under the required denomination
- -  Insufficient money in the customer account
+ - Insufficient money in the customer account
  - Incorrect password or pin number
  - Exceeding the Amount per transaction – withdrawal/transfer
  - Limit for withdrawal =[Rs 100 – Rs 10,000]
