@@ -607,7 +607,7 @@ int total_withdraw(int withd, string accno, string username, string pino, int li
     {
         del_extra(linecount1-1);
         update1(accno, username, pino, bala1);
-        if(linecount==5)
+        if(linecount1==5)
             del_extra(linecount1-1);
         mini_update_withdraw(edit, accno, withd, bala1);
     }
