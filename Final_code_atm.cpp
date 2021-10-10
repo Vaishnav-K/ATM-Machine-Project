@@ -605,8 +605,10 @@ int total_withdraw(int withd, string accno, string username, string pino, int li
     bala1 = withdraw(withd, accno, flags);
     if (bala1 >= 0)
     {
-        delete_line("accounts.txt", linecount1);
+        del_extra(linecount1-1);
         update1(accno, username, pino, bala1);
+        if(linecount==5)
+            del_extra(linecount1-1);
         mini_update_withdraw(edit, accno, withd, bala1);
     }
     if (bala1 < 0)
