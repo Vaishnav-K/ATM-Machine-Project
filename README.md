@@ -48,7 +48,7 @@ I have successfully implemented the following functions/Operations on this proje
   Note: Administrators are only granted view access to the customer table
 
 
-#### iii.). Handle ATM Process:
+#### iii). Handle ATM Process:
   This option is exclusively for the customers of the bank 
   This option requires the user to type in their account number and password
   After successful verification , the user is provided with 5 options
@@ -77,8 +77,9 @@ The file "balance.txt" is displayed
 This allows the user to view the mini statement of the previous 10 transactions 
 Displays the file "<customer_id>_transactions.txt"
 
-#### iv). The customer is provided with an option to re-enter the required operations upon typing "y"
+#### iv).Repeat Process:
+The customer is provided with an option to re-enter the required operations upon typing "y"
 The customer can exit the ATM Machine by entering any other letter.
 
 
-Finally ,the customer is greeted with a GoodBye message prompting them to have a great day.
+Finally ,the code ends with a display of greeting to the Customer 
