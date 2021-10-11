@@ -15,6 +15,9 @@ assignment from  ZOHO Corporation on 11/10/2021
  - Please Do not enter commas (,) in-between the amounts
  - Ensure that the conditions are satisfied under a certain operation 
  - Ie: if an error message is displayed , the updating process wont take place 
+ - Customer account details are stored in the file "accounts.txt"
+ - ATM Machine balance details are stored in the file "balance.txt"
+ - Mini-statements of each customer is stored in the file "<Customer_ID>_transactions.txt".
 
 ## Some of the errors-criteria to avoid are
  - Insufficient money under the required denomination
